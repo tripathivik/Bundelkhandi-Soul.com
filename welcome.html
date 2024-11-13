@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bundelkhand Tourism</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="welcome-content">
+            <h1>Welcome to Bundelkhand Tourism</h1>
+            <p>Explore the rich heritage, culture, and natural beauty of Bundelkhand. Sign in to access exclusive content and start your journey.</p>
+            <button onclick="openLoginForm()">Login</button>
+        </div>
+    </div>
+
+    <!-- Login Form Overlay -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-form">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username" id="username">
+            <input type="password" placeholder="Password" id="password">
+            <button onclick="login()">Sign In</button>
+            <button class="close-btn" onclick="closeLoginForm()">Close</button>
+        </div>
+    </div>
+
+    <script src="welcome.js"></script>
+</body>
+</html>
